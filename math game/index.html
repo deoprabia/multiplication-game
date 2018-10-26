@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Math-Game</title>
+    <link rel="stylesheet" href="../math game/css/style.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../math game/js/model.js"></script>
+    <script src="../math game/js/controller.js"></script>
+
+
+
+</head>
+
+<body>
+    <header class="tomato mb-15">
+        <div class="flex-margin-auto">
+            <span class "multiplier-one">
+                <h4>multiplier-one</h4>
+                <h5>minimum value <input type="number" name="" id=""></h5>
+                <h5>maximum value <input type="number" name="" id=""></h5>
+            </span><span class "multiplier-two">
+                <h4>multiplier-two</h4>
+                <h5>minimum value <input type="number" name="" id=""></h5>
+                <h5>maximum value <input type="number" name="" id=""></h5>
+                
+
+
+            </span></div>
+
+    </header>
+
+    <main class="main-content mb-15">
+        <div class="tomato main-column">
+            <div class="flex-margin-auto">
+
+
+
+                <span class="quiz-area">
+                    <section >
+                        <div class="container">
+                            <h1>Let's Play A multiplication Game</h1>
+                            <hr><br>
+                            <span id="first"></span><span id="sum"></span>
+                            <span id="second">num</span> =
+                            <input style="font-size: 1em;" type="number" id="userAnswer"><br>
+                            <hr>
+                            <br>
+                            <hr><br>
+                            <span id="first"></span><span id="sum"></span>
+                            <span id="second">num</span> =
+                            <input style="font-size: 1em;" type="number" id="userAnswer"><br>
+                            <hr>
+                            <br><hr><br>
+                            <span id="first"></span><span id="sum"></span>
+                            <span id="second">num</span> =
+                            <input style="font-size: 1em;" type="number" id="userAnswer"><br>
+                            <hr>
+                            <br><hr><br>
+                            <span id="first"></span><span id="sum"></span>
+                            <span id="second">num</span> =
+                            <input style="font-size: 1em;" type="number" id="userAnswer"><br>
+                            <hr>
+                            <br>
+
+
+                        </div>
+                    </section>
+                </span>
+
+            </div>
+        </div>
+
+        <div class="tomato sidebar sidebar-one">
+            <div class="flex-margin-auto">
+                <h3>timer
+
+                    <span id="countdown-timer">Counting down...</span>
+                </h3>
+
+
+            </div>
+        </div>
+        </div>
+
+        <div class="tomato sidebar sidebar-two">
+            <div class="flex-margin-auto">
+                    <button id "set-a-number" class "newnum">create</button>
+                <p>ENTER YOUR NAME:</p>
+                <form name="local_storage_form" method="post" action="">
+
+                    <input type="text" name="your_name" id="your_name" class="localStore column" value="" />
+                    
+                    
+                    <input id="add_column" type="button" value="save" />
+                    </form>
+              
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="tomato">
+        <div class="flex-margin-auto">
+            <p id="trueAnswers">true: </p>
+            <p id="falseAnswers">false:</p>
+            <p id= "emptyAnswers">empty:</p>
+            <p id= "totalTimeValue" >your time:</p>
+            <p id="newGame"><button> newgame</button></p>
+        </div>
+    </footer>
+    <em class="success">&#10047 game by &#169rabia</em>
+
+</body>
+
+</html>

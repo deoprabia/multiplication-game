@@ -1,0 +1,113 @@
+
+body {
+	background-color: rgb(204, 255, 250);
+	padding: 15px;
+	font-family: Monaco, arial, sans-serif;
+	color: #fff;
+}
+.tomato {
+	background-color: rgb(110, 202, 242);
+}
+.mb-15 {
+    margin-bottom: 15px;
+    flex-wrap: nowrap;
+    
+    
+}
+.hint {
+	display: block;
+	margin-top: 10px;
+	font-style: italic;
+	color:aqua;
+}
+
+header,
+footer {
+    height: 300px;
+    
+    
+}
+
+.flex-margin-auto {
+	margin: auto;
+}
+
+.main-content {
+	min-height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.main-column {
+	margin: 0 15px;
+	flex: 3;
+	order: 2;
+}
+
+.sidebar {
+	flex: 1;
+}
+
+.sidebar-one {
+	order: 1;
+}
+
+.sidebar-two {
+	order: 3;
+}
+
+
+/* for horizontally & vertically centering inside content */
+header,
+footer,
+.main-column,
+.sidebar {
+	display: flex;
+}
+.flex-margin-auto {
+	margin: auto;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+}
+
+@media (max-width: 767px) {
+	.main-content {
+		flex-direction: column;
+	}
+	.main-column {
+		margin: 0;
+		order: 1;
+	}
+	.sidebar-one {
+		margin: 15px 0;
+		order: 2;
+	}
+	.flex-margin-auto {
+		text-align: center;
+	}
+}
+
+ span .quiz-area{
+  
+  
+    margin:  auto;
+    width: 80%;
+    height: 80%;
+   box-sizing: border-box;
+
+}
+
+button {
+    font-size: 1em;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #04B1DA;
+    color: #F3B905;
+    font-family: 'indie flower';
+}
+em {
+    color:#04B1DA;
+    letter-spacing: 3px;
+}
+
